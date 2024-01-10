@@ -1,24 +1,24 @@
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Courier New', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #2c3e50; /* Main Background Color */
-    color: #fff; /* Default Text Color */
+    background-color: #1a472a; /* Main Background Color */
+    color: 	#000000; /* Default Text Color */
 }
 header {
-    background-color: #3498db; /* Header Background Color */
-    color: white;
+    background-color: #2a623d; /* Header Background Color */
+    color: 	#000000;
     text-align: left; /* Align the header content to the left */
     padding: 10px;
 }
 #nav {
-    background-color: #3498db; /* Navigation Bar Background Color */
+    background-color: #2a623d; /* Navigation Bar Background Color */
     text-align: right; /* Align the navigation links to the right */
     padding-right: 20px; /* Add padding to the right to separate from the page title */
 }
 #nav a {
-    color: white;
+    color: 	#000000;
     text-decoration: none;
     padding: 15px 12px; /* Navigation Link Padding */
     margin: 0 5px;
@@ -26,7 +26,7 @@ header {
     transition: background-color 0.3s;
 }
 #nav a:hover {
-    background-color: #555; /* Navigation Link Hover Color */
+    background-color: #aaaaaa; /* Navigation Link Hover Color */
 }
 section {
     margin: 30px;
@@ -53,7 +53,6 @@ section {
     width: 60%; /* Larger width for the main work-box */
     margin: 0 auto; /* Center the main work-box */
     margin-bottom: 20px;
-    border: 2px solid #333; /* Work Box Border Color */
     border-radius: 5px;
     overflow: hidden; /* Ensure the overflow doesn't affect the border radius */
     position: relative;
@@ -71,18 +70,18 @@ section {
     position: absolute;
     bottom: 0;
     left: 0;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.7); /* Background color with transparency */
-    color: white;
+    width: 45%;
+    height: 6%;
+    background-color: rgba(170, 170, 170, 0.9); /* Background color with transparency */
+    color: 	#000000;
     padding: 5px;
     text-align: center;
-    font-size: 14px;
+    font-size: 2vw;
     pointer-events: none; /* Prevent the title from blocking clicks on the image */
 }
 .work-box {
     width: 30%;
     margin-bottom: 20px;
-    border: 2px solid #333; /* Work Box Border Color */
     border-radius: 5px;
     overflow: hidden; /* Ensure the overflow doesn't affect the border radius */
     position: relative;
@@ -100,17 +99,18 @@ section {
     position: absolute;
     bottom: 0;
     left: 0;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.7); /* Background color with transparency */
-    color: white;
+    width: 48%;
+    height: 8%;
+    background-color: rgba(170, 170, 170, 0.9); /* Background color with transparency */
+    color: 	#000000;
     padding: 5px;
     text-align: center;
-    font-size: 14px;
+    font-size: 1.15vw;
     pointer-events: none; /* Prevent the title from blocking clicks on the image */
 }
 footer {
-    background-color: #333; /* Footer Background Color */
-    color: #fff; /* Footer Text Color */
+    background-color: 	#aaaaaa; /* Footer Background Color */
+    color: #000000; /* Footer Text Color */
     text-align: center;
     padding: 10px;
 }
